@@ -1,0 +1,102 @@
+/* Use CSS to change the font used throughout the page to sans-serif */
+body {
+    font-family: sans-serif;
+	background-image: url("./background-1127943_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Setup the links to use the :hover pseudo-class */
+
+a:hover {
+    /* Customize link hover effect as needed */
+    color: #FF5733;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+span {
+    color: red;
+    font-size: 18px;
+}
+
+/* Use an image as a background */
+
+
+
+/* Create a zebra-striped table for the assignments section */
+#assignments {
+    /* Set the width of the table to 50% of its parent element */
+    width: 50%;
+	text-align: left
+}
+
+#profile{
+	text-align: center;
+}
+
+table tbody td {
+    padding: 10px;
+}
+
+table  tbody tr.odd {
+	background-color: #7FFF00;
+}
+
+li {
+    /* Set the margin bottom to 10px */
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	border-color: black;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: gray;
+}
+
+table tbody tr:hover {
+    background-color: background-color: #00ff0080;;
+}
+
+/* Add more specific section styles as needed */
+.section-header {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+	display: block;
+}
+
+.personal{
+	text-align :center;
+	
+}
